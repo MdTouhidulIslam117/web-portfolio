@@ -21,7 +21,7 @@ p{
    padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
@@ -49,10 +49,16 @@ section{
     background-repeat: no-repeat;
     background-position: left;
 }
+.experience-item{
+    display: flex;
+}
+#experience-header{
+    padding-left: 100px;
+}
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
+    height: 100%;
     background-color: white;
 }
 #full-stack{
